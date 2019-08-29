@@ -1,1 +1,15 @@
-second test
+git cat-file -p [options]
+commit tree blog
+git log -3 --all --graph --oneline
+gitk --all
+git commit --amend
+git branch -av
+git checkout -b branch_name 
+git rebase -i commit_version 
+git diff --cached # 比较工作区和head所指文件差异
+git diff  # 比较工作区暂存区
+git reset HEAD # 清楚暂存区
+git reset HEAD -- filename
+git checkout -- filename # 回复工作区到暂存区 
+git reset --hard commit_version # 提交回退
+
