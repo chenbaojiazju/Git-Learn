@@ -12,6 +12,7 @@ git reset HEAD # 清楚暂存区
 git reset HEAD -- filename
 git checkout -- filename # 回复工作区到暂存区 
 git reset --hard commit_version # 提交回退
+git push --set-upstream origin branch_name
 
 make a new branch to test the function of branch
 test a new commit in newbranch01
