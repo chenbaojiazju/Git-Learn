@@ -12,4 +12,5 @@ git reset HEAD # 清楚暂存区
 git reset HEAD -- filename
 git checkout -- filename # 回复工作区到暂存区 
 git reset --hard commit_version # 提交回退
-
+git fetch --all 拉取所有分支的更新到本地库
+git reset origin/master
