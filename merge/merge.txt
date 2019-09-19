@@ -1,1 +1,2 @@
 test merge
+add a new line
