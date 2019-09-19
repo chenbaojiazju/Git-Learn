@@ -82,7 +82,16 @@ git log --online -n4 --all --graph
 git checkout -b <new_branch_name> <base_branch> #在分支上创建新的分支并切换到新分支
 git checkout -- <file> # 恢复工作区和暂存区一致
 ```
+#### git merge
+
+```
+git merge --allow-unrelated-histories
+```
+
+
+
 #### git push
+
 ```
 git push origin <branch_name > #创建远程分支
 git push --set-upstream origin <branch_name>
