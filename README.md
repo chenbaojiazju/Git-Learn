@@ -66,7 +66,7 @@ git clone --bare file://<local_repository_address> <repository_name>  #不带工
 git clone --bare file://E:/Git-learn/.git zhineng
 ```
 
-####　git remote
+#### git remote
 
 ```
 git remote add origin git@github.com:chenbaojiazju/Git-Learn.git
